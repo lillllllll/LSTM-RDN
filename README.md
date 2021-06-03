@@ -1,1 +1,13 @@
 # LSTM-RDN
+TransferLearningResNet.m  is a transfer learning program
+ExtractFeatureResNet.m  is a program to extract the fearues of transfied network
+ lstm-rdn.m  is  is a feature selection network based on LSTM and ReLU-Dropout
+
+convnetResnet18Cars.mat is the transfered resnet18 model on stanfordcard
+Resnet18trainFeatures.mat  contains  the features of Resnet18 of train set (stanfordcar)
+Resnet18testFeatures.mat  contains  the features of Resnet18 of test set (stanfordcar)
+Resnet18lstm_rdn.mat is the pre-trained lstm-rdn model
+
+stanfordcar.zip is the database of stanfordcar which consists of the test and train sets, which is
+available from 
+https://pan.baidu.com/s/1IJlwYmgmxo3bg6gpNv4RcA, extracting code: wjdq 
