@@ -15,5 +15,12 @@ Resnet18testFeatures.mat  contains  the features of Resnet18 of test set (stanfo
 
 Resnet18lstm_rdn1000.mat is the pre-trained lstm-rdn model with 1000 nunber of hidden units of LSTM
 
-stanfordcar database which consists of the test and train sets is available from  
+stanford-cars database which consists of the test and train sets is available from  
 https://pan.baidu.com/s/1IJlwYmgmxo3bg6gpNv4RcA, extracting code: wjdq 
+
+# usage
+step1, TransferLearningResNet.m is used to perform the transfer learning with ResNet18 backbone on stanford-cars.   
+       Resnet18trainFeatures and Resnet18testFeatures will be produced.
+step2, Training lstm-rdn model by lstm-rdn.m on Resnet18trainFeatures. Resnet18lstm_rdn1000 will be produced.
+step3, evaluating the classification accurancy with Resnet18lstm_rdn1000
+
