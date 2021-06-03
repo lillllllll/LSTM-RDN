@@ -7,7 +7,9 @@ ExtractFeatureLSTM_RDN.m used to extract the feature by LSTM-RDN, which inputs i
 convnetResnet18Cars.mat is the transfered resnet18 model on stanfordcard
 Resnet18trainFeatures.mat  contains  the features of Resnet18 of train set (stanfordcar)
 Resnet18testFeatures.mat  contains  the features of Resnet18 of test set (stanfordcar)
+
 Resnet18lstm_rdn1000.mat is the pre-trained lstm-rdn model with 1000 nunber of hidden units of LSTM
+
 Resnet18lstm_rdn1200.mat is the pre-trained lstm-rdn model with 1200 nunber of hidden units of LSTM
 
 stanfordcar.zip is the database of stanfordcar which consists of the test and train sets, which is
