@@ -29,11 +29,11 @@ step3, Computing the classification accurancy with Resnet18lstm_rdn1000 on Resne
 step4(optinal), Extracting the trainFeature and testFeature and perform final evaluation by using ExtractFeatureLSTM_RDN.m. 
 
 # Citations
-@article{chaorong2021,
-author = "li chaorong and Yuanyuan Huang and WEI HUANG and Fengqing Qin",
-title = "{One-dimensional DCNN Feature Selective Transformation with LSTM-RDN for Image Classification}",
-year = "2021",
-month = "6",
-url = "https://www.techrxiv.org/articles/preprint/One-dimensional_DCNN_Feature_Selective_Transformation_with_LSTM-RDN_for_Image_Classification/14642814",
-doi = "10.36227/techrxiv.14642814.v2"
+@article{chaorong2021,  
+author = "li chaorong and Yuanyuan Huang and WEI HUANG and Fengqing Qin",  
+title = "{One-dimensional DCNN Feature Selective Transformation with LSTM-RDN for Image Classification}",  
+year = "2021",  
+month = "6",  
+url = "https://www.techrxiv.org/articles/preprint/One-dimensional_DCNN_Feature_Selective_Transformation_with_LSTM-RDN_for_Image_Classification/14642814",  
+doi = "10.36227/techrxiv.14642814.v2"  
 }
