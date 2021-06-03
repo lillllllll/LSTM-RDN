@@ -15,5 +15,5 @@ Resnet18testFeatures.mat  contains  the features of Resnet18 of test set (stanfo
 
 Resnet18lstm_rdn1000.mat is the pre-trained lstm-rdn model with 1000 nunber of hidden units of LSTM
 
-stanfordcar database is available from  
+stanfordcar database which consists of the test and train sets is available from  
 https://pan.baidu.com/s/1IJlwYmgmxo3bg6gpNv4RcA, extracting code: wjdq 
