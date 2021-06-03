@@ -24,7 +24,7 @@ step1, TransferLearningResNet.m is used to perform the transfer learning with Re
        
 step2, Training lstm-rdn model by lstm-rdn.m on Resnet18trainFeatures. Resnet18lstm_rdn1000 will be produced.
 
-step3, evaluating the classification accurancy with Resnet18lstm_rdn1000, 
+step3, Computing the classification accurancy with Resnet18lstm_rdn1000 on Resnet18testFeatures
 
-step4, 
+step4(optinal), Extracting the trainFeature and testFeature and perform final evaluation by using ExtractFeatureLSTM_RDN.m 
 
